@@ -4,6 +4,7 @@ import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithText
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import design.fiti.unitteststddclass.presentation.screen.HomeScreen
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -20,6 +21,9 @@ class PlaylistFeatureUITest {
 
     @Test
     fun useAppContext() {
+        composeTestRule.setContent {
+            HomeScreen()
+        }
         composeTestRule.onNodeWithText("Groovy").assertExists("Groovy wasn't found on your UI")
     }
 }
