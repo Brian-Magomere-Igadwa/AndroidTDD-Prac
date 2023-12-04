@@ -1,0 +1,19 @@
+appId: design.fiti.unitteststddclass
+---
+- launchApp
+- scrollUntilVisible:
+    element:
+      "Pyrex"
+    direction: DOWN
+    timeout: 50000
+    speed: 40
+    visibilityPercentage: 100
+    centerElement: false
+- scrollUntilVisible:
+    element:
+      "Doeboy"
+    direction: UP
+    timeout: 50000
+    speed: 40
+    visibilityPercentage: 100
+    centerElement: false
