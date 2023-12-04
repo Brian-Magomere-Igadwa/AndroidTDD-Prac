@@ -8,6 +8,15 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="homeViewModel_fetchesPlaylists()">
+        <State />
+      </entry>
+      <entry key="homescreen_displaysListOfPlaylists()">
+        <State />
+      </entry>
+      <entry key="homescreen_showsGroovyTopBar()">
+        <State />
+      </entry>
     </value>
   </component>
 </project>

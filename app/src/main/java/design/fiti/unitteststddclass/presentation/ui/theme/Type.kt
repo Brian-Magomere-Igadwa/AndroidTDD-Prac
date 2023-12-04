@@ -1,4 +1,4 @@
-package design.fiti.unitteststddclass.ui.theme
+package design.fiti.unitteststddclass.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
